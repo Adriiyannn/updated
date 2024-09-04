@@ -1,0 +1,76 @@
+body {
+    background-image: url('https://example.com/path-to-your-image.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.header {
+    background-color: rgba(0, 121, 107, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(98, 144, 134, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.city-name, .date, .weather-info, .temperature, .humidity {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.city-name {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.date {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.weather-info {
+    font-size: 1.3em;
+    color: #555;
+}
+
+.temperature, .humidity {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.footer {
+    background-color: rgba(0, 121, 107, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .city-name, .date, .weather-info, .temperature, .humidity {
+        font-size: 1em;
+    }
+}
